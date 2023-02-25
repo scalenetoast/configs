@@ -3,4 +3,4 @@
 i3 config /
 polybar config /
 rofi config /
-color codes txt 
+alacritty
