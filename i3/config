@@ -150,7 +150,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Ctrl+z reload
+bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Ctrl+r restart
 # exit i3 (logs you out of your X session)
@@ -191,7 +191,7 @@ bindsym $mod+Shift+r mode "resize"
 #}
 
 # Borders
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 gaps inner 4
 gaps outer 4
 #smart_gaps on
@@ -199,10 +199,10 @@ gaps outer 4
 
 exec_always ~/.config/polybar/launch.sh
 
-exec_always feh --bg-fill ~/Pictures/3.png
+exec_always feh --bg-fill ~/Pictures/08.png
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #d79921 #285577 #ffffff #d79921   #d79921
+client.focused          #ebdbb2 #ebdbb2 #ffffff #ebdbb2   #ebdbb2
 client.focused_inactive #928374 #928374 #ffffff #928374   #928374
 client.unfocused        #928374 #928374 #888888 #928374   #928374
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
