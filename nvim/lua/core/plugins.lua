@@ -13,13 +13,18 @@ local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
+  use 'ray-x/aurora'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-lualine/lualine.nvim'
-  use 'nvim-telescope/telescope.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+
+  -- lsp stuff
   use 'neovim/nvim-lspconfig'
   use 'williamboman/nvim-lsp-installer'
-  use 'ray-x/aurora'
+
+  -- completions
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
 	
   -- My plugins here
   -- use 'foo1/bar1.nvim'

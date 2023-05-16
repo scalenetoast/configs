@@ -4,6 +4,15 @@ lsp_installer.on_server_ready(function(server)
   server:setup(opts)
 end)
 
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
+  require('lspconfig')['clangd'].setup {
+    capabilities = capabilities
+  }
+  require('lspconfig')['pylsp'].setup {
+    capabilities = capabilities
+  }
+
 
 --[[
      Open neovim and type ':LspInstall [language lsp]'
