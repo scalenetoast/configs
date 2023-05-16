@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'neovim/nvim-lspconfig'
   use 'williamboman/nvim-lsp-installer'
+  use 'ray-x/aurora'
 	
   -- My plugins here
   -- use 'foo1/bar1.nvim'

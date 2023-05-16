@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  aurora = {
+    loaded = true,
+    path = "/home/kali/.local/share/nvim/site/pack/packer/start/aurora",
+    url = "https://github.com/ray-x/aurora"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/kali/.local/share/nvim/site/pack/packer/start/lualine.nvim",
