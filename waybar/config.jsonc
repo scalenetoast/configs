@@ -17,8 +17,7 @@
     "modules-right": [
         "cpu",
         "memory",
-	"pulseaudio",
-        "tray"
+	"pulseaudio"
     ],
     // Modules configuration
      "sway/workspaces": {
@@ -28,13 +27,22 @@
          "format": "{icon}",
          "format-icons": {
              //"1": "",
+               "0": "1",
              //"2": "",
+               "0": "2",
              //"3": "",
+               "0": "3",
              //"4": "",
+               "0": "4",
              //"5": "",
+               "0": "5",
+               "0": "6",
+               "0": "7",
+               "0": "8",
+               "0": "9",
              //"urgent": "",
              "focused": "",
-             "default": ""
+             //"default": ""
          }
     },
     "keyboard-state": {
