@@ -12,9 +12,9 @@ set $mod Mod4
 set $left h
 set $down j
 set $up k
-set $right l
+set $right u
 # Your preferred terminal emulator
-set $term kitty
+set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -23,7 +23,7 @@ set $menu fuzzel
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/Wallpapers/25.png fill
+output * bg ~/Pictures/Wallpapers/04.png fill
 #
 # Example configuration:
 #
@@ -199,12 +199,14 @@ mode "resize" {
 }
 bindsym $mod+Shift+r mode "resize"
 
+# Swaylock
+bindsym $mod+l exec "swaylock -f"
 
 # Waybar pulseaudio key bindings
-bindsym XF86AudioRaiseVolume exec pulsemixer --unmute --change-volume +5 --max-volume 100
-bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5
-bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
-bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+# bindsym XF86AudioRaiseVolume exec pulsemixer --unmute --change-volume +5 --max-volume 100
+# bindsym XF86AudioLowerVolume exec pulsemixer --change-volume -5
+# bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+# bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 #
 # Status Bar:
