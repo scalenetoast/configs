@@ -1,0 +1,9 @@
+scripts for using the "nm-connection-editor" and the "nmcli con" to connect and openvpn connection
+
+using the connection editor the configs should already be added and they should have the option where password
+is remembered for all users.
+
+a RANDOM vpn will always be chosen (becuz it's easier for me) 
+can be changed to enter a number to choose that vpn if wanted
+
+can set an optional alias in the .bashrc that runs both scripts

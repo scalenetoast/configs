@@ -1,0 +1,3 @@
+[insert uuid of vpn connection]
+#will be put here by the vpn-on script
+#will be pulled by the vpn_off script
