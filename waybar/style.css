@@ -116,7 +116,7 @@ button:hover {
 
 #clock {
     background-color: #1d2021;
-    color: #ffffff;
+    color: #ebdbb2;
 }
 
 #battery {
@@ -172,7 +172,7 @@ label:focus {
 
 #cpu {
     background-color: #1d2021;
-    color: #fe8019;
+    color: #fb4934;
 }
 
 #memory {
