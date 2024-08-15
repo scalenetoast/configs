@@ -23,7 +23,7 @@ set $menu fuzzel
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/Wallpapers/04.png fill
+output * bg ~/Pictures/Wallpapers/01.png fill
 #
 # Example configuration:
 #
@@ -220,11 +220,11 @@ bar {
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #d79921 #d79921 #ffffff #d79921   #d79921
-client.focused_inactive #ebdbb2 #ebdbb2 #ffffff #ebdbb2   #ebdbb2
-client.unfocused        #ebdbb2 #ebdbb2 #888888 #ebdbb2   #ebdbb2
+client.focused_inactive #d5c4a1 #d5c4a1 #ffffff #d5c4a1   #d5c4a1
+client.unfocused        #d5c4a1 #d5c4a1 #888888 #d5c4a1   #d5c4a1
 
 gaps inner 3
-gaps outer 3
+gaps outer 2
 default_border pixel 2
 
 
